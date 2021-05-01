@@ -1,0 +1,75 @@
+header{
+    .up{
+        @include flex-between-center;
+
+        .logo, .right-side{
+            
+            @include flex-between-center;
+            
+            svg, .account-pic h3{
+                font-size: nth($sz, 5);
+            }
+            
+            
+            
+        }
+
+        .right-side{
+            svg{
+                width: nth($sz, 5);
+                fill: $grey;
+                & path{
+                    fill: $grey;
+                }
+            }
+
+             .account-pic{
+                background-color: #2962ff;
+                width: 33px;
+                height: 33px;
+
+                @include flex-center-center;
+                border-radius: 50%;
+                color: white;
+            }
+        }
+
+        span{
+            font-size: nth($sz, 6);
+            color: $grey;
+            font-weight: 500;
+        }
+    }
+
+    .down{
+
+        ul{
+            @include flex-start-center;
+
+            li{
+                padding-right: nth($sz, 6);
+                padding-bottom: nth($sz, 3);
+                list-style: none;
+
+                a{
+                    text-decoration: none;
+                    font-size: nth($sz, 3);
+                    font-weight: bolder;
+                    color: $grey;
+
+                    &:hover{
+                        color: $blue;
+                    }
+                }
+
+                &.active a{
+                    padding-top: nth($sz, 1);
+                    border-bottom: 3px solid $blue;
+                    border-bottom-width: 80%;
+                    padding-bottom: nth($sz, 4);
+                    color: $blue;
+                }
+            }
+        }
+    }
+}

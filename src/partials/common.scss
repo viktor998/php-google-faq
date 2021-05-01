@@ -1,0 +1,43 @@
+$types: m, p;
+
+@each $type in $types {
+    @for $i from 1 through 16{
+        .#{$type}t-#{$i}{
+            @if($type==m ){
+                margin-top: 0.25em * $i;
+            }@else{
+                padding-top: 0.25em * $i;
+            }
+        }  
+
+        .#{$type}b-#{$i}{
+            @if($type==m ){
+                margin-bottom: 0.25em * $i;
+            }@else{
+                padding-bottom: 0.25em * $i;
+            }
+        }
+
+        .#{$type}l-#{$i}{
+            @if($type==m ){
+                margin-left: 0.25em * $i;
+            }@else{
+                padding-left: 0.25em * $i;
+            }
+        }
+
+        .#{$type}r-#{$i}{
+            @if($type==m ){
+                margin-right: 0.25em * $i;
+            }@else{
+                padding-right: 0.25em * $i;
+            }
+        }
+    }
+      
+}
+
+
+.container{
+    width: 70%;
+}

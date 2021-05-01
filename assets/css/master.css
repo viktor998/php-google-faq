@@ -1,0 +1,588 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.mt-1 {
+  margin-top: 0.25em;
+}
+
+.mb-1 {
+  margin-bottom: 0.25em;
+}
+
+.ml-1 {
+  margin-left: 0.25em;
+}
+
+.mr-1 {
+  margin-right: 0.25em;
+}
+
+.mt-2 {
+  margin-top: 0.5em;
+}
+
+.mb-2 {
+  margin-bottom: 0.5em;
+}
+
+.ml-2 {
+  margin-left: 0.5em;
+}
+
+.mr-2 {
+  margin-right: 0.5em;
+}
+
+.mt-3 {
+  margin-top: 0.75em;
+}
+
+.mb-3 {
+  margin-bottom: 0.75em;
+}
+
+.ml-3 {
+  margin-left: 0.75em;
+}
+
+.mr-3 {
+  margin-right: 0.75em;
+}
+
+.mt-4 {
+  margin-top: 1em;
+}
+
+.mb-4 {
+  margin-bottom: 1em;
+}
+
+.ml-4 {
+  margin-left: 1em;
+}
+
+.mr-4 {
+  margin-right: 1em;
+}
+
+.mt-5 {
+  margin-top: 1.25em;
+}
+
+.mb-5 {
+  margin-bottom: 1.25em;
+}
+
+.ml-5 {
+  margin-left: 1.25em;
+}
+
+.mr-5 {
+  margin-right: 1.25em;
+}
+
+.mt-6 {
+  margin-top: 1.5em;
+}
+
+.mb-6 {
+  margin-bottom: 1.5em;
+}
+
+.ml-6 {
+  margin-left: 1.5em;
+}
+
+.mr-6 {
+  margin-right: 1.5em;
+}
+
+.mt-7 {
+  margin-top: 1.75em;
+}
+
+.mb-7 {
+  margin-bottom: 1.75em;
+}
+
+.ml-7 {
+  margin-left: 1.75em;
+}
+
+.mr-7 {
+  margin-right: 1.75em;
+}
+
+.mt-8 {
+  margin-top: 2em;
+}
+
+.mb-8 {
+  margin-bottom: 2em;
+}
+
+.ml-8 {
+  margin-left: 2em;
+}
+
+.mr-8 {
+  margin-right: 2em;
+}
+
+.mt-9 {
+  margin-top: 2.25em;
+}
+
+.mb-9 {
+  margin-bottom: 2.25em;
+}
+
+.ml-9 {
+  margin-left: 2.25em;
+}
+
+.mr-9 {
+  margin-right: 2.25em;
+}
+
+.mt-10 {
+  margin-top: 2.5em;
+}
+
+.mb-10 {
+  margin-bottom: 2.5em;
+}
+
+.ml-10 {
+  margin-left: 2.5em;
+}
+
+.mr-10 {
+  margin-right: 2.5em;
+}
+
+.mt-11 {
+  margin-top: 2.75em;
+}
+
+.mb-11 {
+  margin-bottom: 2.75em;
+}
+
+.ml-11 {
+  margin-left: 2.75em;
+}
+
+.mr-11 {
+  margin-right: 2.75em;
+}
+
+.mt-12 {
+  margin-top: 3em;
+}
+
+.mb-12 {
+  margin-bottom: 3em;
+}
+
+.ml-12 {
+  margin-left: 3em;
+}
+
+.mr-12 {
+  margin-right: 3em;
+}
+
+.mt-13 {
+  margin-top: 3.25em;
+}
+
+.mb-13 {
+  margin-bottom: 3.25em;
+}
+
+.ml-13 {
+  margin-left: 3.25em;
+}
+
+.mr-13 {
+  margin-right: 3.25em;
+}
+
+.mt-14 {
+  margin-top: 3.5em;
+}
+
+.mb-14 {
+  margin-bottom: 3.5em;
+}
+
+.ml-14 {
+  margin-left: 3.5em;
+}
+
+.mr-14 {
+  margin-right: 3.5em;
+}
+
+.mt-15 {
+  margin-top: 3.75em;
+}
+
+.mb-15 {
+  margin-bottom: 3.75em;
+}
+
+.ml-15 {
+  margin-left: 3.75em;
+}
+
+.mr-15 {
+  margin-right: 3.75em;
+}
+
+.mt-16 {
+  margin-top: 4em;
+}
+
+.mb-16 {
+  margin-bottom: 4em;
+}
+
+.ml-16 {
+  margin-left: 4em;
+}
+
+.mr-16 {
+  margin-right: 4em;
+}
+
+.pt-1 {
+  padding-top: 0.25em;
+}
+
+.pb-1 {
+  padding-bottom: 0.25em;
+}
+
+.pl-1 {
+  padding-left: 0.25em;
+}
+
+.pr-1 {
+  padding-right: 0.25em;
+}
+
+.pt-2 {
+  padding-top: 0.5em;
+}
+
+.pb-2 {
+  padding-bottom: 0.5em;
+}
+
+.pl-2 {
+  padding-left: 0.5em;
+}
+
+.pr-2 {
+  padding-right: 0.5em;
+}
+
+.pt-3 {
+  padding-top: 0.75em;
+}
+
+.pb-3 {
+  padding-bottom: 0.75em;
+}
+
+.pl-3 {
+  padding-left: 0.75em;
+}
+
+.pr-3 {
+  padding-right: 0.75em;
+}
+
+.pt-4 {
+  padding-top: 1em;
+}
+
+.pb-4 {
+  padding-bottom: 1em;
+}
+
+.pl-4 {
+  padding-left: 1em;
+}
+
+.pr-4 {
+  padding-right: 1em;
+}
+
+.pt-5 {
+  padding-top: 1.25em;
+}
+
+.pb-5 {
+  padding-bottom: 1.25em;
+}
+
+.pl-5 {
+  padding-left: 1.25em;
+}
+
+.pr-5 {
+  padding-right: 1.25em;
+}
+
+.pt-6 {
+  padding-top: 1.5em;
+}
+
+.pb-6 {
+  padding-bottom: 1.5em;
+}
+
+.pl-6 {
+  padding-left: 1.5em;
+}
+
+.pr-6 {
+  padding-right: 1.5em;
+}
+
+.pt-7 {
+  padding-top: 1.75em;
+}
+
+.pb-7 {
+  padding-bottom: 1.75em;
+}
+
+.pl-7 {
+  padding-left: 1.75em;
+}
+
+.pr-7 {
+  padding-right: 1.75em;
+}
+
+.pt-8 {
+  padding-top: 2em;
+}
+
+.pb-8 {
+  padding-bottom: 2em;
+}
+
+.pl-8 {
+  padding-left: 2em;
+}
+
+.pr-8 {
+  padding-right: 2em;
+}
+
+.pt-9 {
+  padding-top: 2.25em;
+}
+
+.pb-9 {
+  padding-bottom: 2.25em;
+}
+
+.pl-9 {
+  padding-left: 2.25em;
+}
+
+.pr-9 {
+  padding-right: 2.25em;
+}
+
+.pt-10 {
+  padding-top: 2.5em;
+}
+
+.pb-10 {
+  padding-bottom: 2.5em;
+}
+
+.pl-10 {
+  padding-left: 2.5em;
+}
+
+.pr-10 {
+  padding-right: 2.5em;
+}
+
+.pt-11 {
+  padding-top: 2.75em;
+}
+
+.pb-11 {
+  padding-bottom: 2.75em;
+}
+
+.pl-11 {
+  padding-left: 2.75em;
+}
+
+.pr-11 {
+  padding-right: 2.75em;
+}
+
+.pt-12 {
+  padding-top: 3em;
+}
+
+.pb-12 {
+  padding-bottom: 3em;
+}
+
+.pl-12 {
+  padding-left: 3em;
+}
+
+.pr-12 {
+  padding-right: 3em;
+}
+
+.pt-13 {
+  padding-top: 3.25em;
+}
+
+.pb-13 {
+  padding-bottom: 3.25em;
+}
+
+.pl-13 {
+  padding-left: 3.25em;
+}
+
+.pr-13 {
+  padding-right: 3.25em;
+}
+
+.pt-14 {
+  padding-top: 3.5em;
+}
+
+.pb-14 {
+  padding-bottom: 3.5em;
+}
+
+.pl-14 {
+  padding-left: 3.5em;
+}
+
+.pr-14 {
+  padding-right: 3.5em;
+}
+
+.pt-15 {
+  padding-top: 3.75em;
+}
+
+.pb-15 {
+  padding-bottom: 3.75em;
+}
+
+.pl-15 {
+  padding-left: 3.75em;
+}
+
+.pr-15 {
+  padding-right: 3.75em;
+}
+
+.pt-16 {
+  padding-top: 4em;
+}
+
+.pb-16 {
+  padding-bottom: 4em;
+}
+
+.pl-16 {
+  padding-left: 4em;
+}
+
+.pr-16 {
+  padding-right: 4em;
+}
+
+.container {
+  width: 70%;
+}
+
+header .up {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .up .logo, header .up .right-side {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .up .logo svg, header .up .logo .account-pic h3, header .up .right-side svg, header .up .right-side .account-pic h3 {
+  font-size: 1.25em;
+}
+header .up .right-side svg {
+  width: 1.25em;
+  fill: #5f6368;
+}
+header .up .right-side svg path {
+  fill: #5f6368;
+}
+header .up .right-side .account-pic {
+  background-color: #2962ff;
+  width: 33px;
+  height: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: white;
+}
+header .up span {
+  font-size: 1.5em;
+  color: #5f6368;
+  font-weight: 500;
+}
+header .down ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+header .down ul li {
+  padding-right: 1.5em;
+  padding-bottom: 0.75em;
+  list-style: none;
+}
+header .down ul li a {
+  text-decoration: none;
+  font-size: 0.75em;
+  font-weight: bolder;
+  color: #5f6368;
+}
+header .down ul li a:hover {
+  color: #3367d6;
+}
+header .down ul li.active a {
+  padding-top: 0.25em;
+  border-bottom: 3px solid #3367d6;
+  border-bottom-width: 80%;
+  padding-bottom: 1em;
+  color: #3367d6;
+}
