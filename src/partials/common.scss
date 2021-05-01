@@ -1,7 +1,7 @@
 $types: m, p;
 
 @each $type in $types {
-    @for $i from 1 through 16{
+    @for $i from 1 through 32{
         .#{$type}t-#{$i}{
             @if($type==m ){
                 margin-top: 0.25em * $i;
@@ -40,4 +40,9 @@ $types: m, p;
 
 .container{
     width: 70%;
+    margin: 0 auto;
+}
+
+.display-flex{
+    display:flex;
 }

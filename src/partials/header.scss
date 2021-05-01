@@ -4,10 +4,10 @@ header{
 
         .logo, .right-side{
             
-            @include flex-between-center;
+            @include flex-center-center;
             
-            svg, .account-pic h3{
-                font-size: nth($sz, 5);
+            svg{
+                font-size: nth($sz, 7);
             }
             
             
@@ -16,7 +16,7 @@ header{
 
         .right-side{
             svg{
-                width: nth($sz, 5);
+                width: nth($sz, 10);
                 fill: $grey;
                 & path{
                     fill: $grey;
@@ -24,20 +24,25 @@ header{
             }
 
              .account-pic{
-                background-color: #2962ff;
+                background-color: #3367d6;
                 width: 33px;
                 height: 33px;
 
                 @include flex-center-center;
                 border-radius: 50%;
                 color: white;
+
+                h3{
+                    font-size: nth($sz, 4);
+                }
             }
         }
 
         span{
-            font-size: nth($sz, 6);
+            font-size: nth($sz, 9);
             color: $grey;
-            font-weight: 500;
+            font-weight: 700;
+            padding-bottom: nth($sz, 2)
         }
     }
 
@@ -47,14 +52,15 @@ header{
             @include flex-start-center;
 
             li{
-                padding-right: nth($sz, 6);
+                padding-right: nth($sz, 20);
                 padding-bottom: nth($sz, 3);
                 list-style: none;
 
                 a{
+                    
                     text-decoration: none;
-                    font-size: nth($sz, 3);
-                    font-weight: bolder;
+                    font-size: nth($sz, 6);
+                    font-weight: 600;
                     color: $grey;
 
                     &:hover{
@@ -66,7 +72,7 @@ header{
                     padding-top: nth($sz, 1);
                     border-bottom: 3px solid $blue;
                     border-bottom-width: 80%;
-                    padding-bottom: nth($sz, 4);
+                    padding-bottom: nth($sz, 3);
                     color: $blue;
                 }
             }

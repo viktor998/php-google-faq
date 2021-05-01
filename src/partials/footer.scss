@@ -1,0 +1,26 @@
+footer{
+    background: $footer_bg;
+    .container{
+        @include flex-between-center;
+
+        ul{
+            @include flex-center-center;
+            list-style: none;
+            a{
+                font-size: nth($sz, 4);
+                text-decoration: none;
+                color: $grey;
+                padding-right: nth($sz, 8);
+            }
+        }
+        .select-lang{
+            @include flex-center-center;
+            img{
+                padding-right: nth($sz, 5);
+            }
+        }
+        ul, select{
+            margin: nth($sz, 7) 0;
+        }
+    }
+}

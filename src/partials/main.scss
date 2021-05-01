@@ -1,0 +1,12 @@
+main{
+    .container{
+        h3{
+            font-size: nth($sz, 10);
+            color: $grey;
+        }
+        p, ol{
+            font-size: nth($sz, 6);
+            line-height: 1.8;
+        }
+    }
+}
